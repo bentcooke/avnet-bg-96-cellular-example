@@ -1,0 +1,74 @@
+2019-02-20 14:20:47	mbed_main
+2019-02-20 14:20:47	init_cellular_power()
+2019-02-20 14:21:08	done
+2019-02-20 14:21:08	
+2019-02-20 14:21:08	
+2019-02-20 14:21:08	mbed-os-example-cellular
+2019-02-20 14:21:08	
+2019-02-20 14:21:08	
+2019-02-20 14:21:08	Built: Feb 20 2019, 14:17:34
+2019-02-20 14:21:08	
+2019-02-20 14:21:08	
+2019-02-20 14:21:08	[MAIN], plmn: (null)
+2019-02-20 14:21:08	Establishing connection
+2019-02-20 14:21:08	[2K[39m[00020307ms][INFO][CELL]: New CellularContext  (0x2000e370)[0m
+2019-02-20 14:21:08	[2K[39m[00020309ms][INFO][CELL]: CellularContext plmn (null)[0m
+2019-02-20 14:21:08	[2K[39m[00020311ms][INFO][CELL]: CellularContext connect[0m
+2019-02-20 14:21:08	[2K[39m[00020314ms][INFO][CELL]: Start connecting (timeout 1 s)[0m
+2019-02-20 14:21:08	[2K[39m[00020335ms][INFO][CELL]: Modem ready[0m
+2019-02-20 14:21:09	[2K[33m[00021342ms][WARN][CELL]: AT timeout[0m
+2019-02-20 14:21:09	[2K[39m[00021343ms][INFO][CELL]: Setup SIM (timeout 1 s)[0m
+2019-02-20 14:21:09	[2K[39m[00021349ms][INFO][CELL]: SIM is ready[0m
+2019-02-20 14:21:09	[2K[39m[00021377ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:21:09	[2K[39m[00021378ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:21:09	[2K[39m[00021398ms][INFO][CELL]: Continue after 2 seconds[0m
+2019-02-20 14:21:11	[2K[39m[00023403ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:21:11	[2K[39m[00023404ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:21:21	[2K[33m[00033417ms][WARN][CELL]: AT timeout[0m
+2019-02-20 14:21:21	[2K[33m[00033418ms][WARN][CELL]: Get network registration failed (type 2)![0m
+2019-02-20 14:21:21	[2K[39m[00033420ms][INFO][CELL]: Continue after 4 seconds[0m
+2019-02-20 14:21:25	[2K[39m[00037426ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:21:25	[2K[39m[00037427ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:21:25	[2K[39m[00037441ms][INFO][CELL]: Continue after 8 seconds[0m
+2019-02-20 14:21:33	[2K[39m[00045447ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:21:33	[2K[39m[00045448ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:21:33	[2K[39m[00045463ms][INFO][CELL]: Continue after 16 seconds[0m
+2019-02-20 14:21:49	[2K[39m[00061469ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:21:49	[2K[39m[00061470ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:21:59	[2K[33m[00071473ms][WARN][CELL]: AT timeout[0m
+2019-02-20 14:21:59	[2K[33m[00071474ms][WARN][CELL]: Get network registration failed (type 0)![0m
+2019-02-20 14:21:59	[2K[39m[00071485ms][INFO][CELL]: Continue after 32 seconds[0m
+2019-02-20 14:22:29	mbed_main
+2019-02-20 14:22:29	init_cellular_power()
+2019-02-20 14:22:49	done
+2019-02-20 14:22:49	
+2019-02-20 14:22:49	
+2019-02-20 14:22:49	mbed-os-example-cellular
+2019-02-20 14:22:49	
+2019-02-20 14:22:49	
+2019-02-20 14:22:49	Built: Feb 20 2019, 14:17:34
+2019-02-20 14:22:49	
+2019-02-20 14:22:49	
+2019-02-20 14:22:49	[MAIN], plmn: (null)
+2019-02-20 14:22:49	Establishing connection
+2019-02-20 14:22:49	[2K[39m[00020307ms][INFO][CELL]: New CellularContext  (0x2000e370)[0m
+2019-02-20 14:22:49	[2K[39m[00020309ms][INFO][CELL]: CellularContext plmn (null)[0m
+2019-02-20 14:22:49	[2K[39m[00020311ms][INFO][CELL]: CellularContext connect[0m
+2019-02-20 14:22:49	[2K[39m[00020314ms][INFO][CELL]: Start connecting (timeout 1 s)[0m
+2019-02-20 14:22:49	[2K[39m[00020335ms][INFO][CELL]: Modem ready[0m
+2019-02-20 14:22:49	[2K[39m[00020346ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:22:49	[2K[39m[00020348ms][INFO][CELL]: Setup SIM (timeout 1 s)[0m
+2019-02-20 14:22:49	[2K[39m[00020356ms][INFO][CELL]: SIM is ready[0m
+2019-02-20 14:22:49	[2K[39m[00020385ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:22:49	[2K[39m[00020386ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:22:49	[2K[39m[00020408ms][INFO][CELL]: Continue after 2 seconds[0m
+2019-02-20 14:22:51	[2K[39m[00022413ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:22:51	[2K[39m[00022414ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:22:51	[2K[39m[00022430ms][INFO][CELL]: Continue after 4 seconds[0m
+2019-02-20 14:22:55	[2K[39m[00026436ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:22:55	[2K[39m[00026437ms][INFO][CELL]: Network registration (timeout 180 s)[0m
+2019-02-20 14:23:05	[2K[33m[00036450ms][WARN][CELL]: AT timeout[0m
+2019-02-20 14:23:05	[2K[33m[00036451ms][WARN][CELL]: Get network registration failed (type 2)![0m
+2019-02-20 14:23:05	[2K[39m[00036453ms][INFO][CELL]: Continue after 8 seconds[0m
+2019-02-20 14:23:13	[2K[39m[00044459ms][INFO][CELL]: RSSI unknown[0m
+2019-02-20 14:23:13	[2K[39m[00044460ms][INFO][CELL]: Network registration (timeout 180 s)[0m
