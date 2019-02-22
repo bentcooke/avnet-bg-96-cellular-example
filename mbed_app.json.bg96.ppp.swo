@@ -19,18 +19,19 @@
         },
         "thread-stack-size": {
             "value": 6000
+        },
+        "provide-default-variant": {
+            "value": "AVNET_BG96"
+        },
+        "swo-enabled": {
+            "help"      : "Enable single wire output disabling UART/stdio",
+            "options"   : [null, 1],
+            "value"     : 1
         }
     },
     "target_overrides": {
         "*": {
-            "platform.stack-stats-enabled": true,
-            "platform.heap-stats-enabled": true,
-            "platform.cpu-stats-enabled": true,
-            "platform.thread-stats-enabled": true,
-            "platform.sys-stats-enabled": true,
             "QUECTEL_BG96.provide-default": true,
-            "QUECTEL_BG96.tx": "D1",
-            "QUECTEL_BG96.rx": "D0",
             "target.network-default-interface-type": "CELLULAR",
             "mbed-trace.enable": true,
             "lwip.ipv4-enabled": true,
@@ -44,9 +45,17 @@
             "cellular.debug-at": true,
             "nsapi.default-cellular-plmn": 0,
             "nsapi.default-cellular-sim-pin": "\"1234\"",
-            "nsapi.default-cellular-apn": "\"NXTGENPHONE\"",
+            "nsapi.default-cellular-apn": "\"Broadband\"",
             "nsapi.default-cellular-username": 0,
             "nsapi.default-cellular-password": 0
+        },
+        "NUCLEO_L476RG": {
+            "QUECTEL_BG96.tx": "D1",
+            "QUECTEL_BG96.rx": "D0"
+        },
+        "NRF52_DK": {
+            "QUECTEL_BG96.tx": "p8",
+            "QUECTEL_BG96.rx": "p6"
         }
     }
 }

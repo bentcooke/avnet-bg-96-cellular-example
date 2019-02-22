@@ -1,0 +1,63 @@
+{
+    "config": {
+        "sock-type": "TCP",
+        "echo-server-hostname": {
+            "help": "Echo server host name.",
+            "value": "\"echo.mbedcloudtesting.com\""
+        },
+        "echo-server-port": {
+            "help": "Echo server port number.",
+            "value": 7
+        },
+        "trace-level": {
+            "help": "Options are TRACE_LEVEL_ERROR,TRACE_LEVEL_WARN,TRACE_LEVEL_INFO,TRACE_LEVEL_DEBUG",
+            "macro_name": "MBED_TRACE_MAX_LEVEL",
+            "value": "TRACE_LEVEL_INFO"
+        },
+        "main-stack-size": {
+            "value": 6000
+        },
+        "thread-stack-size": {
+            "value": 6000
+        },
+        "provide-default-variant": {
+            "value": "AVNET_BG96"
+        },
+        "swo-enabled": {
+            "help"      : "Enable single wire output disabling UART/stdio",
+            "options"   : [null, 1],
+            "value"     : null
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "QUECTEL_BG96.provide-default": true,
+            "QUECTEL_BG96.tx": "D1",
+            "QUECTEL_BG96.rx": "D0",
+            "target.network-default-interface-type": "CELLULAR",
+            "mbed-trace.enable": true,
+            "lwip.ipv4-enabled": true,
+            "lwip.ethernet-enabled": false,
+            "lwip.ppp-enabled": true,
+            "lwip.tcp-enabled": true,
+            "platform.stdio-convert-newlines": true,
+            "platform.stdio-baud-rate": 115200,
+            "platform.default-serial-baud-rate": 115200,
+            "platform.stdio-buffered-serial": true,
+            "cellular.debug-at": true,
+            "nsapi.default-cellular-plmn": 0,
+            "nsapi.default-cellular-sim-pin": "\"1234\"",
+            "nsapi.default-cellular-apn": "\"Broadband\"",
+            "nsapi.default-cellular-username": 0,
+            "nsapi.default-cellular-password": 0
+        },
+        "KW41Z": {
+            "target.stdio_uart_tx": "NC",
+            "target.stdio_uart_rx": "NC"
+        },
+        "NUCLEO_L476RG": {
+            "target.stdio_uart_tx": "D8",
+            "target.stdio_uart_rx": "D2"
+        }
+    }
+}
