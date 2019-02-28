@@ -47,7 +47,7 @@
             "cellular.debug-at": true,
             "nsapi.default-cellular-plmn": 0,
             "nsapi.default-cellular-sim-pin": "\"1234\"",
-            "nsapi.default-cellular-apn": "\"Broadband\"",
+            "nsapi.default-cellular-apn": "\"vzwinternet\"",
             "nsapi.default-cellular-username": 0,
             "nsapi.default-cellular-password": 0
         },
